@@ -1,0 +1,333 @@
+@charset "utf-8";
+
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+
+ul, h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* 메뉴 */
+.menu {
+    width: 100%;
+    height: 44px;
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    line-height: 44px;
+}
+
+/* 메뉴 안의 ul */
+.menu ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.wrap {
+    text-align: center;
+}
+
+/* 메뉴 안의 li */
+.menu li {
+    float: left;
+    margin-right: 80px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* 메뉴에 있는 애플로고 */
+.fab.fa-apple {
+    font-size: 19px;
+    color: #f5f5f7;
+}
+
+/* 메뉴에 있는 검색 이미지 */
+.fas.fa-search {
+    font-size: 19px;
+    color: #f5f5f7;
+}
+
+/* 메뉴에 있는 쇼핑 이미지 */
+.fas.fa-shopping-bag {
+    font-size: 19px;
+    color: #f5f5f7;
+}
+
+.contents {
+    padding-top: 44px;
+}
+
+/* 온라인으로 쇼핑하고 무료 배송, 스페셜리스트 지원 등의 혜택을 받으세요. */
+.information {
+    width: 100%;
+    height: 46px;
+    background: #fbfbfb;
+    text-align: center;
+    line-height: 46px;
+    font-size: 12px;
+}
+
+/* 간격 및 위치 조절 */
+.unit-wrap {
+    padding-top: 55px;
+    text-align: center;
+}
+
+.price {
+    margin-top: 10px;
+    color: #86868b;
+}
+
+.price span {
+    font-size: 17px;
+}
+
+.moreandbuy {
+    margin-top: 14px;
+}
+
+.moreandbuy a {
+    font-size: 21px;
+}
+
+.moreandbuy .buy {
+    margin-left: 35px;
+}
+
+/* 아이폰 12/아이폰 12프로/아이패드 제목 */
+h2 {
+    font-size: 50px;
+}
+
+/* 아이폰 12/아이폰 12프로/아이패드 부제목 */
+h3 {
+    font-size: 28px;
+    margin-top: 6px;
+}
+
+/* 아이폰 12 */
+.iphone-12 {
+    width: 100%;
+    height: 690px;
+    background: rgb(175, 174, 174);
+    margin-bottom: 12px;
+}
+
+.iphone-12 .moreandbuy a {
+    color: #06c;
+}
+
+/* 아이폰 12 프로 */
+.iphone-12-pro {
+    width: 100%;
+    height: 690px;
+    background: black;
+    margin-bottom: 12px;
+}
+
+.iphone-12-pro h2 {
+    color: white;
+}
+
+.iphone-12-pro h3 {
+    color: white;
+}
+
+.iphone-12-pro .moreandbuy a {
+    color: #2997FF;
+}
+
+/* 아이패드 */
+.ipad {
+    width: 100%;
+    height: 690px;
+    background: black;
+    margin-bottom: 12px;
+}
+
+.ipad h2 {
+    color: white;
+}
+
+.ipad h3 {
+    color: white;
+}
+
+.ipad .moreandbuy a {
+    color: #2997FF;
+}
+
+/* 콘텐츠 묶음*/
+.bundle {
+    clear: both;
+    margin-bottom: 12px;
+    height: 578px;
+}
+
+.bundle h4 {
+    font-size: 40px;
+}
+
+.bundle h5 {
+    font-size: 21px;
+}
+
+.bundle.more {
+    font-size: 17px;
+}
+
+/* 콘텐츠 묶음1 imac/international-collection */
+
+/* 제품명 */
+.bundle.one h4 {
+    color: #1d1d1f;
+}
+
+/* 부제목 */
+.bundle.one h5 {
+    color: #1d1d1f;
+}
+
+/* 구입 및 더알아보기 */
+.bundle.one a {
+    color: #06c;
+}
+
+/* imac */
+.imac {
+    float: left;
+    width: 47.9%;
+    height: 578px;
+    background: wheat;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+/* international-collection */
+.international-collection {
+    float: right;
+    width: 48%;
+    height: 578px;
+    background: wheat;
+    margin-right: 12px;
+}
+
+
+/* 콘텐츠 묶음2 watch/macbook-air */
+
+.bundle.two h4 {
+    color: #f5f5f7;
+}
+
+.bundle.two h5 {
+    color: #f5f5f7;
+}
+
+/* 구입 및 더 알아보기 */
+.bundle.two a {
+    color: #2997FF;
+}
+
+/* watch */
+.watch {
+    float: left;
+    width: 48%;
+    height: 578px;
+    background: black;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.fab.fa-apple.log {
+    font-size: 30px;
+    color: #f5f5f7;
+}
+
+.logop {
+    font-size: 30px;
+    color: #f5f5f7;
+}
+
+.hidden {
+    font-size: 13px;
+    color: red;
+}
+
+/* macbook-air */
+.macbook-air {
+    float: right;
+    width: 48%;
+    height: 578px;
+    background: black;
+    margin-right: 12px;
+}
+
+
+/* 콘텐츠 묶음3 airtag/airpods-pro */
+
+/* airtag */
+.airtag {
+    float: left;
+    width: 48%;
+    height: 578px;
+    background: wheat;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.airtag .moreandbuy a {
+    color: #06c;
+}
+
+/* airpods-pro */
+.airpods-pro {
+    float: right;
+    width: 48%;
+    height: 578px;
+    background: black;
+    margin-right: 12px;
+}
+
+.airpods-pro h4 {
+    color: #f5f5f7;
+}
+
+.airpods-pro h5 {
+    color: #f5f5f7;
+}
+
+.airpods-pro .moreandbuy a {
+    color: #2997ff;
+}
+
+
+/* 풋터 */
+footer {
+    clear: both;
+    margin-top: 12px;
+    width: 100%;
+    height: 596.719px;
+    background:rgb(175, 174, 174);
+}
+
+
+p {
+    color:rgb(184, 184, 184)
+}
+
+.contents a {
+    text-decoration: none;
+    color: rgb(42, 134, 190);
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
