@@ -78,6 +78,7 @@ body {
 .unit-wrap {
     padding-top: 55px;
     text-align: center;
+    position: relative;
 }
 
 .price {
@@ -120,11 +121,27 @@ h3 {
     background-repeat: no-repeat;
     background-position: 50% top;
     margin-bottom: 12px;
+    position: relative;
 }
 
+.unit-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.bun .moreandbuy {
+    position: absolute;
+    z-index: 20;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .iphone-12 .moreandbuy a {
     color: #06c;
 }
+
+
 
 /* 아이폰 12 프로 */
 .iphone-12-pro {
@@ -189,6 +206,10 @@ h3 {
     font-size: 17px;
 }
 
+.bundle > div {
+    position: relative;
+}
+
 /* 콘텐츠 묶음1 imac/international-collection */
 
 /* 제품명 */
@@ -214,6 +235,11 @@ h3 {
 
 .bundle h5 {
     margin-top: 4px;
+}
+
+.bundle .unit-wrap .moreandbuy {
+    right: 50%;
+    transform: translateX(50%);
 }
 
 /* imac */
@@ -378,3 +404,9 @@ p {
     color: #86868b;
 }
 
+.bundle .unit-wrap .moreandbuy {
+    position: absolute;
+    right: 50%;
+    z-index: 20;
+    transform: translateX(50%);
+}
