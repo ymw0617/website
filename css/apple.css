@@ -117,6 +117,8 @@ h3 {
     width: 100%;
     height: 690px;
     background: url(../apple_images/iphone-12.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% top;
     margin-bottom: 12px;
 }
 
@@ -129,6 +131,8 @@ h3 {
     width: 100%;
     height: 690px;
     background: url(../apple_images/iphone-12pro.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% top;
     margin-bottom: 12px;
 }
 
@@ -149,6 +153,8 @@ h3 {
     width: 100%;
     height: 690px;
     background: url(../apple_images/ipad.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% top;
     margin-bottom: 12px;
 }
 
@@ -216,6 +222,8 @@ h3 {
     width: 47.9%;
     height: 578px;
     background: url(../apple_images/imac.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% top;
     margin-left: 12px;
     margin-right: 12px;
 }
@@ -226,6 +234,8 @@ h3 {
     width: 48%;
     height: 578px;
     background: url(../apple_images/international.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% top;
     margin-right: 12px;
 }
 
@@ -251,6 +261,8 @@ h3 {
     width: 48%;
     height: 578px;
     background: url(../apple_images/iwatch.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% top;
     margin-left: 12px;
     margin-right: 12px;
 }
@@ -276,6 +288,9 @@ h3 {
     width: 48%;
     height: 578px;
     background: url(../apple_images/macbook-air.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    background-size: cover;
     margin-right: 12px;
 }
 
@@ -288,6 +303,8 @@ h3 {
     width: 48%;
     height: 578px;
     background: url(../apple_images/itag.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% top;
     margin-left: 12px;
     margin-right: 12px;
 }
@@ -302,6 +319,9 @@ h3 {
     width: 48%;
     height: 578px;
     background: url(../apple_images/airpods-pro.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    background-size: cover;
     margin-right: 12px;
 }
 
